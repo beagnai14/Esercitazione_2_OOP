@@ -95,7 +95,7 @@ complex_number<T> operator+(const T val, const complex_number<T>& z)
 	return complex_number<T>(z.getReale() + val, z.getImmaginaria());
 }
 
-//Overload operatore +: T e complesso 
+//Overload operatore *: T e complesso 
 template<typename T> 
 complex_number<T> operator*(const T val, const complex_number<T>& z)
 {
